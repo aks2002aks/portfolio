@@ -1,0 +1,130 @@
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 13px 0;
+}
+
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
+section.module.parallax-1 {
+  background-image: url("../images/123.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+section.module.parallax-2 {
+  background-image: url("../images/1266_1 (1).jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+section.module.parallax-3 {
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-4 {
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-5 {
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+section.module.parallax-6 {
+  background-image: url("../images/136.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-7 {
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax {
+    padding: 500px 0;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+.about-text {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.padding-class {
+  padding: 80px 20px;
+  color: rgb(255, 255, 255);
+}
+.padding-class1 {
+  padding: 20px;
+}
+
+.details-css {
+  margin: 4px;
+  text-align: center;
+}
